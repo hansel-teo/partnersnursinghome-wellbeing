@@ -3,13 +3,7 @@ require(tidyverse); require(haven); require(did)
 
 # PATHS TO DATA AND WORKING DIRECTORY
 ######
-# # Home
-# dir_root <- "/Users/hanselteo/Data/"
-# dir_working <- paste0(dir_root, "nhspouse_replication/")
-
-# Work
-dir_root <- "E:/My Drive/" 
-dir_working <- paste0(dir_root, "projects/nhspouse_wellbeing/")
+dir_working <- 
 
 setwd(dir_working)
 ######
@@ -17,9 +11,6 @@ setwd(dir_working)
 
 # LOAD DATA
 ######
-# # HRS data (constructed from running ConstructSample.R)
-# load(paste0(dir_working, "01constructdata/dat_hrs_prep_v2.rda"))
-
 # Estimation sample
 load(paste0(dir_working, "03preanalysis/samp_event.rda"))
 ######
