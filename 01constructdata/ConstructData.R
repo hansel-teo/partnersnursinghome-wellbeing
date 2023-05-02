@@ -1,16 +1,14 @@
 require(tidyverse); require(haven)
 require(readxl)
 
-dir_root <- "E:/My Drive/" 
-dir_working <- paste0(dir_root, "projects/nhspouse_wellbeing/")
+dir_working <- 
 
 setwd(dir_working)
 
 
-
 # EXTRACT VARIABLES AND COMPILE WORKING DATASET
 ######
-dir_input <- paste0(dir_root, "data/hrs/")
+dir_input <- 
 
 ### FILENAMES
 filenames <- list()
