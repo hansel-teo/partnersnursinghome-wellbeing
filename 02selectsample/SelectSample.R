@@ -2,8 +2,7 @@ require(tidyverse); require(haven)
 
 # PATHS TO DATA AND WORKING DIRECTORY
 ######
-dir_root <- "E:/My Drive/" 
-dir_working <- paste0(dir_root, "projects/nhspouse_wellbeing/")
+dir_working <- 
 
 setwd(dir_working)
 ######
@@ -43,6 +42,8 @@ load(paste0(dir_working, "02selectsample/temp/vars_treatindex.rda"))
 
 
 depvarsin <- c("rcesd")
+
+
 ####################################
 # BASELINE SAMPLE
 ####################################
@@ -113,10 +114,4 @@ save(samp_pre, file = paste0(dir_working, "02selectsample/samp_pre.rda"))
 ############
 
 rm(lgrid)
-
-
-
-
-
-####################################
 
