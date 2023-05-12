@@ -1,5 +1,5 @@
 # Estimation sample
-load(paste0(dir_working, "03preanalysis/samp_event-20230410.rda"))
+load(paste0(dir_working, "03preanalysis/samp_event.rda"))
 
 
 rdemographics_n <- c("safemale", "sanonwhite", "sacollege", "sagey_e", "semployed")
@@ -319,5 +319,5 @@ rm(carerecv_l, carerecv_n, crconditions_l, crconditions_n, financial_l, financia
 
 write.csv(desc, 
           row.names = FALSE, 
-          paste0(dir_working, "05results/tables/tab1-20230411.csv"))
+          paste0(dir_working, "05results/tables/tab1.csv"))
 
