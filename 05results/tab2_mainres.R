@@ -105,7 +105,7 @@ colnames(TAB) <- c("Event time", "Variable", "Pooled", "Non-caregivers", "Caregi
 
 write.csv(TAB, 
           row.names = FALSE, 
-          paste0(dir_working, "05results/tables/tab2b-20230411.csv"))
+          paste0(dir_working, "05results/tables/tab2b.csv"))
 
 ############
 rm(EST.ATT.CESD)
