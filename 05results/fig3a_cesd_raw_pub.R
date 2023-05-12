@@ -1,19 +1,6 @@
 # LOAD REQUIRED PACKAGES
 require(tidyverse)
 
-# PATHS TO DATA AND WORKING DIRECTORY
-######
-# # Home
-# dir_root <- "/Users/hanselteo/Data/"
-# dir_working <- paste0(dir_root, "nhspouse_replication/")
-
-# Work
-dir_root <- "E:/My Drive/" 
-dir_working <- paste0(dir_root, "projects/nhspouse_wellbeing/")
-
-setwd(dir_working)
-######
-
 # Estimation sample
 load(paste0(dir_working, "03preanalysis/samp_event.rda"))
 
