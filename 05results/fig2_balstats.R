@@ -252,6 +252,6 @@ tab_balstat <- tab_balstat %>% select(Variable, `Standardized Mean Difference`)
 
 write.csv(desc, 
           row.names = FALSE, 
-          paste0(dir_working, "05results/tables/tabappendix1-20230406.csv"))
+          paste0(dir_working, "05results/tables/tabappendix1.csv"))
 
 
