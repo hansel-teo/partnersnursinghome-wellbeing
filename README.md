@@ -12,10 +12,10 @@ The analysis is based on data from the Health and Retirement Study and uses
 + Harmonized HRS Version C (1992-2019) `H_HRS_c.dta`
 + Langa-Weir Classification of Cognitive Function (1995-2018) `cogfinalimp_9518wide.dta`
 
-All raw data files should be located in the same subdirectory and its location defined as `dir_input <- ` in the following code.
-
 The HRS (Health and Retirement Study) is sponsored by the National Institute on Aging (grant number NIA U01AG009740) and is conducted by the University of Michigan. 
 The data can be obtained from https://hrs.isr.umich.edu/ subject to registration. 
+
+All raw data files should be located in the same subdirectory (defined as `dir_input` in the following code).
 
 ## Step 1 - Construct HRS panel
 Subdirectory `/01ConstructData/` contains code to construct the analysis dataset. 
@@ -30,7 +30,9 @@ All steps can be executed by running `ConstructData.R` which will:
 ## Step 2 - Sample selection
 
 ## Step 3 - Propensity score estimation and matching
+Requires `MatchIt`
 
 ## Step 4 - Estimation
+Requires `did`
 
 ## Step 5 - Produce tables and figures
