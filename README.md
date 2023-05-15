@@ -3,7 +3,7 @@
 https://doi.org/10.1016/j.socscimed.2023.115941
 
 This repo consists of 5 subdirectories which when run sequentially produce Tables 1-4 and Figures 2-7 in the main text of the paper.
-To replicate these results, copy all subdirectories into your working directory and define this as `dir_working <- ` in the following code.
+To replicate these results, copy all subdirectories into your working directory (defined as `dir_working` in the following code).
 
 ### Base data
 The analysis is based on data from the Health and Retirement Study and uses 
