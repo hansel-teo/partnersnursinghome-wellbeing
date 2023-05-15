@@ -53,5 +53,6 @@ Requires `did`
 `/05results/` contains code which compiles the Tables 1-4 and plots the Figures 2-7 in the paper.
 
 
+
 ### Disclaimer
-This documentation and code are still being polished. Please bear with me and do let me know of any errors.
+This documentation and public code are still being polished. Please bear with me and do let me know of any errors.
