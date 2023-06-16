@@ -70,7 +70,7 @@ save(select_treated, file = paste0(dir_working, "02selectsample/temp/samp_treate
 gc()
 source(paste0(dir_working, "02selectsample/sampselect_nevtreat.R"), verbose = TRUE)
 
-save(select_treated, file = paste0(dir_working, "02selectsample/temp/samp_nevtreat.rda"))
+save(select_nevtreat, file = paste0(dir_working, "02selectsample/temp/samp_nevtreat.rda"))
 
 ############
 
